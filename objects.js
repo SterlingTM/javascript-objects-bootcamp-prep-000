@@ -1,4 +1,7 @@
-var playlist = { "Phil Ochs": 'song'};
+var playlist = { 
+  "Phil Ochs": 'song',
+  "Slowdive": 'song2'
+};
 
 function updatePlaylist(playlist, artistName, songTitle) {
   Object.assign({}, playlist, { artistName: [songTitle] });
@@ -6,4 +9,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist;
 }
 
-function removeFromPlaylist
+function removeFromPlaylist(playlist, artistName) {
+  
+}
